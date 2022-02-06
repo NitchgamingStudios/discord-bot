@@ -23,7 +23,7 @@ module.exports = {
                 memberTarget.roles.remove(muteRole.id);
             }, ms(args[1]));
 
-        } else if (!target) {    
+        } else if (!target) {
             message.channel.send(`${message.author}, mute failed. Please mention a user.`)
 
         } else {

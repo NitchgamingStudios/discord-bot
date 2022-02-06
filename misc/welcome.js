@@ -1,6 +1,6 @@
 const { MessageEmbed } = require('discord.js');
 
-module.exports = (client, ) => {
+module.exports = (client,) => {
     const channelId = "778051649800765501";
     const rulesChannel = "778051417620873277";
     const rolesChannel = "879191448782770236";

@@ -15,7 +15,7 @@ module.exports = {
                 { name: 'View the Rules', value: "**rules** --lists the discord rules" }
             )
             .setTimestamp()
-            message.channel.send(newEmbed);
-            console.log(`The 'help' command has been ran.`);
+        message.channel.send(newEmbed);
+        console.log(`The 'help' command has been ran.`);
     }
 }

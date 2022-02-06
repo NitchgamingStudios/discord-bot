@@ -12,7 +12,7 @@ module.exports = {
             memberTarget.roles.remove(muteRole);
             message.channel.send(`**${memberTarget.user.tag}** has been unmuted`);
 
-        } else if (!target) {    
+        } else if (!target) {
             message.channel.send(`${message.author}, unmute failed. Please mention a user.`)
 
         } else {

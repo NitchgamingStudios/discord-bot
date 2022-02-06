@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 
 module.exports = async (client) => {
     const channel = client.channels.cache.get('894898380189368330');
-    setInterval( async () => {
+    setInterval(async () => {
         const msg = await channel.messages.fetch('895276215336845312')
         let totalSeconds = (client.uptime / 1000);
         let days = Math.floor(totalSeconds / 86400);

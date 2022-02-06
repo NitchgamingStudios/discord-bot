@@ -21,7 +21,7 @@ module.exports = {
                 if (target == message.author)
                     return message.channel.send(`You can't ban yourself!`)
                 else
-                memberTarget.ban();
+                    memberTarget.ban();
                 const newEmbed = new Discord.MessageEmbed()
                     .setDescription(`${memberTarget} has been banned from the server.\n**Ban Reason:** ${banReason}.`)
                 message.channel.send(newEmbed);

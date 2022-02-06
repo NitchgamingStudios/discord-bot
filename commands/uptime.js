@@ -14,10 +14,10 @@ module.exports = {
         let seconds = Math.floor(totalSeconds % 60);
         let uptime = `${days}d ${hours}h ${minutes}m ${seconds}s`;
         const newEmbed = new Discord.MessageEmbed()
-        .setTitle(`Nitch's Custom Bot's Stats`)
-        .setDescription(`This bot has been live for **${uptime}**. \n Online: <a:Anim_Checkmark:894764821256503356>`)
-        .setAuthor(`Nitch's Studio Helper`, `https://i.imgur.com/hKwNtq5.png`)
-        .setTimestamp()
+            .setTitle(`Nitch's Custom Bot's Stats`)
+            .setDescription(`This bot has been live for **${uptime}**. \n Online: <EMOJI_HERE>`)
+            .setAuthor(`Nitch's Studio Helper`, `https://i.imgur.com/hKwNtq5.png`)
+            .setTimestamp()
         channel.send(newEmbed);
     }
 }

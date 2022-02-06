@@ -21,7 +21,7 @@ module.exports = {
                 if (target == message.author)
                     return message.channel.send(`You can't kick yourself!`)
                 else
-                memberTarget.kick();
+                    memberTarget.kick();
                 const newEmbed = new Discord.MessageEmbed()
                     .setDescription(`${memberTarget} has been kicked from the server.\n**Kick Reason:** ${kickReason}.`)
                 message.channel.send(newEmbed);
